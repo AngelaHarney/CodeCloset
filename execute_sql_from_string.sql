@@ -11,6 +11,8 @@
 -- Context database - to display output: run from any location that can read context tables
 -- Context database - to execute SQL string output: Run from a database where you have permissions to create objects - string statement creates a view of all columns for a given table
 
+-- If you get an error in the declare section, this typically indicates a syntax in the string you are putting together
+
 declare
   QUERY_STATEMENT string;
   display_statement_only boolean default true;
