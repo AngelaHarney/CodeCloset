@@ -5,7 +5,7 @@
 -- SQL string is dynamically generated from a query
 
 -- Uses INTO the variable to get around string size limitations
--- By default returns the sql string for debugging purposes - set display_statement_only to true to run the sql
+-- By default returns the sql string for debugging purposes - set display_statement_only to false to run the sql
 
 -- Context permissions - read rights to: snowflake_sample_data.information_schema.columns, snowflake_sample_data.tpch_sf1.customer table
 -- Context database - to display output: run from any location that can read context tables
